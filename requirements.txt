@@ -1,8 +1,8 @@
 streamlit
-beautifulsoup4
 requests
+beautifulsoup4
 langchain
-langchain_ollama
-langchain_core
-langchain_text_splitters
-sentence_transformers
+langchain-core
+langchain-ollama
+langchain-text-splitters
+pillow
