@@ -1,0 +1,7 @@
+streamlit
+beautifulsoup4
+requests
+langchain
+langchain_ollama
+langchain_core
+langchain_text_splitters
