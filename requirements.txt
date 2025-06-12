@@ -5,3 +5,4 @@ langchain
 langchain_ollama
 langchain_core
 langchain_text_splitters
+sentence_transformers
