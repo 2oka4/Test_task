@@ -58,3 +58,10 @@ The frontend is a simple Streamlit UI:
 ### Requirements
 - Ollama running locally with `llama3.2` and `gemma3:12b` models downloaded
 - `pip install -r requirements.txt`
+
+### Instrunction
+1. To download models (`llama3.2` and `gemma3:12b`), ollama should be instaleed (https://ollama.com/). After that in cmd the following commands should be executed:
+-ollama pull gemma3:12b
+-ollama pull llama3.2
+2. Download the code of the RAG + requirements. In the cmd execute the following command:
+-streamlit run ***Path to the downloaded code of the RAG***
