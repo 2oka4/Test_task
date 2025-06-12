@@ -1,13 +1,12 @@
 # Test task
 
-This is a Streamlit-powered Retrieval-Augmented Generation (RAG) application that allows users to query across multiple issues of DeepLearning.AI’s newsletter, **The Batch**, using both **textual content and visual elements** (e.g. image captions extracted via vision-language models).
+This is a Multimodal RAG application that allows users to query across multiple articles from https://www.deeplearning.ai/the-batch/, using both textual and media content.
 
 ---
 
 ##  Features
 
 -  **Web Scraping**: Automatically scrapes articles and images from multiple issues of *The Batch* using their URL structure.
--  **Text Chunking**: Splits large article content into semantically manageable chunks using `RecursiveCharacterTextSplitter`.
 -  **Vector Search**: Indexes textual and vision-derived content using `OllamaEmbeddings` and performs similarity search for relevant context.
 -  **Multimodal Reasoning**: Uses `OllamaLLM` with image bindings to extract contextual descriptions from article images.
 -  **Chat QA Interface**: Ask any question about the content of the scraped issues and receive concise answers with 3-sentence summaries.
@@ -57,6 +56,5 @@ The frontend is a simple Streamlit UI:
 ##  How to Run
 
 ### Requirements
-- Python 3.10+
-- Ollama running locally with `llama3.2` and `gemma3:12b` models available
+- Ollama running locally with `llama3.2` and `gemma3:12b` models downloaded
 - `pip install -r requirements.txt`
