@@ -36,7 +36,7 @@ def preprocess_image(file_path):
     try:
         img = Image.open(file_path)
         if img.mode in ("RGBA", "P"):
-            img = img.convert("RGB")  # Ensure compatible mode
+            img = img.convert("RGB") 
         img.save(file_path, format="PNG")
     except Exception as e:
         print(f"Could not preprocess {file_path}: {e}")
@@ -87,7 +87,7 @@ def scrape_article(issue_number):
                 print(f"[ERROR] Failed to download image {img_url}: {e}")
                 continue
 
-        #Extract text from imag
+        #Extract text from image
         try:
             image_text = extract_text(img_path)
             image_texts.append(image_text)
