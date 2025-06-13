@@ -8,7 +8,7 @@ This is a Multimodal RAG application that allows users to query across multiple 
 
 -  **Web Scraping**: Automatically scrapes articles and images from multiple issues of *The Batch* using their URL structure.
 -  **Vector Search**: Indexes textual and vision-derived content using `OllamaEmbeddings` and performs similarity search for relevant context.
--  **Multimodal Reasoning**: Uses `OllamaLLM` with image bindings to extract contextual descriptions from article images.
+-  **Multimodal**: Uses `OllamaLLM` with image bindings to extract contextual descriptions from article images.
 -  **Chat QA Interface**: Ask any question about the content of the scraped issues and receive concise answers with 3-sentence summaries.
 
 ---
